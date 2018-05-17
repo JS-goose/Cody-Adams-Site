@@ -5,7 +5,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .wrapper {
   display: grid;
@@ -115,3 +115,19 @@ body {
 /* ****** */
 /* Footer */
 /* ****** */
+.footer_bar {
+  display: flex;
+  background-color: lightyellow;
+  justify-content: space-around;
+  padding: 2%;
+  height: 100px;
+}
+
+.footer__one {
+  border-right: 1px solid gray;
+  padding-right: 5%;
+}
+.footer__two {
+  border-right: 1px solid gray;
+  padding-right: 2%;
+}
