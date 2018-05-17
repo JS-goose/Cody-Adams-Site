@@ -44,7 +44,7 @@ body {
 /* Content */
 /* ****** */
 .cards {
-  width: 90%;
+  width: 80%;
   height: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -87,6 +87,31 @@ body {
   border: 1px solid black;
 }
 
+.funds {
+  width: 80%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+.donations__card {
+  display: grid;
+  background-color: lightcyan;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.scholarship__card {
+  display: grid;
+  background-color: lightgrey;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
 /* ****** */
 /* Footer */
 /* ****** */
