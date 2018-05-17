@@ -1,11 +1,14 @@
 /* Site wrapper for grid */
-.wrapper {
-  display: grid;
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.wrapper {
+  display: grid;
 }
 /* ****** */
 /* Header */
@@ -72,6 +75,16 @@
   height: 200px;
   justify-content: center;
   align-content: center;
+}
+
+.prevention {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-content: center;
+  background-color: lightgreen;
+  border: 1px solid black;
 }
 
 /* ****** */
