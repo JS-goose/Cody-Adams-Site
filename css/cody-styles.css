@@ -20,13 +20,13 @@ body {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: gray;
+  background-color: lightslategray;
   border: 1px solid black;
 }
 
 .header__link a {
   text-decoration: none;
-  color: midnightblue;
+  color: lightsalmon;
 }
 /* ****** */
 /* Jumbotron Image(s) */
@@ -103,6 +103,7 @@ body {
   height: 300px;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .scholarship__card {
@@ -111,6 +112,8 @@ body {
   height: 300px;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+
 }
 /* ****** */
 /* Footer */
@@ -121,6 +124,8 @@ body {
   justify-content: space-around;
   padding: 2%;
   height: 100px;
+  border-top: 1px solid black;
+
 }
 
 .footer__one {
