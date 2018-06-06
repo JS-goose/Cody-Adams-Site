@@ -5,7 +5,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .wrapper {
   display: grid;
@@ -21,7 +21,7 @@ body {
   height: 50px;
   width: 100%;
   background-color: lightslategray;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .header__link a {
@@ -32,13 +32,21 @@ body {
 /* Jumbotron Image(s) */
 /* ****** */
 .jumbotron {
-  margin-top: 2%;
+  margin-top: -2.4%;
+  /* Image courtesy of Joey Banks on www.unsplash.com */
   background-image: url(../img/mustang-joey-banks.jpg);
   background-position: center;
   background-size: cover;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   height: 300px;
+}
+.site__title {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
 }
 /* ****** */
 /* Content */
@@ -84,7 +92,8 @@ body {
   justify-content: center;
   align-content: center;
   background-color: lightgreen;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .funds {
