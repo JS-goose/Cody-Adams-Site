@@ -6,6 +6,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   /* overflow-x: hidden; */
+  background-color: darkslateblue;
 }
 .wrapper {
   display: grid;
