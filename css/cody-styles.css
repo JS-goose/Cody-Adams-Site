@@ -56,6 +56,16 @@ body {
   text-align: center;
   padding-top: 10%;
 }
+.disclaimer {
+  text-align: center;
+}
+.disclaimer a {
+  text-decoration: none;
+  color: lightcoral;
+}
+.disclaimer a:hover {
+  color: rgb(28, 46, 240);
+}
 /* ****** */
 /* Content */
 /* ****** */
