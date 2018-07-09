@@ -56,12 +56,22 @@ body {
   text-align: center;
   padding-top: 10%;
 }
+.disclaimer {
+  text-align: center;
+}
+.disclaimer a {
+  text-decoration: none;
+  color: lightcoral;
+}
+.disclaimer a:hover {
+  color: rgb(28, 46, 240);
+}
 /* ****** */
 /* Content */
 /* ****** */
 .cards {
   width: 95%;
-  height: 400px;
+  height: 30%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -75,21 +85,22 @@ body {
   display: grid;
   border: 1px solid black;
   background-color: lightcoral;
-  height: 200px;
+  height: 20em;
   justify-content: center;
+  text-align: center;
 }
 .cards__two {
   display: grid;
   border: 1px solid black;
   background-color: lightblue;
-  height: 200px;
+  height: 20em;
   justify-content: center;
 }
 .cards__three {
   display: grid;
   border: 1px solid black;
   background-color: lightsteelblue;
-  height: 200px;
+  height: 20em;
   justify-content: center;
 }
 
