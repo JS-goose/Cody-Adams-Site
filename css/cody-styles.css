@@ -24,7 +24,7 @@ a {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: #1e2143;
+  background-color: rgba(69, 69, 73, 0.85);
   border-bottom: 1px solid black;
   position: fixed;
 }
