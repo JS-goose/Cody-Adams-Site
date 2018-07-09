@@ -10,6 +10,9 @@ body {
 .wrapper {
   display: grid;
 }
+a {
+  text-decoration: none; 
+}
 /* ****** */
 /* Header */
 /* ****** */
@@ -20,18 +23,17 @@ body {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: #1E2143;
+  background-color: #1e2143;
   border-bottom: 1px solid black;
   position: fixed;
 }
 
 .header__link a {
-  text-decoration: none;
   color: lightcyan;
   font-size: 1.2em;
   text-shadow: 1px 1px 1px black;
 }
-/* TODO - fix zoom on hover */
+/* //TODO - fix zoom on hover */
 .header__link a:hover {
   transform: scale(0.8);
   text-decoration: underline;
@@ -60,7 +62,6 @@ body {
   text-align: center;
 }
 .disclaimer a {
-  text-decoration: none;
   color: lightcoral;
 }
 .disclaimer a:hover {
@@ -153,7 +154,6 @@ body {
   height: 100px;
   border-top: 1px solid black;
 }
-
 .footer__one {
   border-right: 1px solid gray;
   padding-right: 5%;
@@ -161,4 +161,7 @@ body {
 .footer__two {
   border-right: 1px solid gray;
   padding-right: 2%;
+}
+.copyright {
+  text-align: center;
 }
