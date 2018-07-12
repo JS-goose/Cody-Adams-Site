@@ -6,9 +6,13 @@ body {
   height: 100%;
   box-sizing: border-box;
   /* overflow-x: hidden; */
+  background: rgba(0, 0, 0, 0.1)
 }
 .wrapper {
   display: grid;
+}
+a {
+  text-decoration: none;
 }
 /* ****** */
 /* Header */
@@ -20,18 +24,17 @@ body {
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: #1E2143;
+  background-color: rgba(69, 69, 73, 0.85);
   border-bottom: 1px solid black;
   position: fixed;
 }
 
 .header__link a {
-  text-decoration: none;
   color: lightcyan;
   font-size: 1.2em;
   text-shadow: 1px 1px 1px black;
 }
-/* TODO - fix zoom on hover */
+/* //TODO - fix zoom on hover */
 .header__link a:hover {
   transform: scale(0.8);
   text-decoration: underline;
@@ -49,6 +52,7 @@ body {
   width: 100%;
   height: 300px;
 }
+
 .site__title {
   font-size: 2em;
   font-weight: bold;
@@ -60,7 +64,6 @@ body {
   text-align: center;
 }
 .disclaimer a {
-  text-decoration: none;
   color: lightcoral;
 }
 .disclaimer a:hover {
@@ -69,37 +72,44 @@ body {
 /* ****** */
 /* Content */
 /* ****** */
+/* Section Grid */
 .cards {
   width: 95%;
   height: 30%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   align-items: center;
   margin: auto;
 }
 .cards__title {
   text-align: center;
+  font-size: 1.3em
 }
-.cards__one {
-  display: grid;
-  border: 1px solid black;
-  background-color: lightcoral;
-  height: 20em;
-  justify-content: center;
+.card {
   text-align: center;
-}
-.cards__two {
-  display: grid;
+  padding: 10px;
   border: 1px solid black;
-  background-color: lightblue;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  -webkit-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
+  background: linear-gradient(lightgray, lightcyan);
+}
+/* Individual cards */
+.one {
+  display: grid;
   height: 20em;
   justify-content: center;
 }
-.cards__three {
+.two {
   display: grid;
-  border: 1px solid black;
-  background-color: lightsteelblue;
+  height: 20em;
+  justify-content: center;
+}
+.three {
+  display: grid;
   height: 20em;
   justify-content: center;
 }
@@ -153,7 +163,6 @@ body {
   height: 100px;
   border-top: 1px solid black;
 }
-
 .footer__one {
   border-right: 1px solid gray;
   padding-right: 5%;
@@ -161,4 +170,8 @@ body {
 .footer__two {
   border-right: 1px solid gray;
   padding-right: 2%;
+}
+.copyright {
+  text-align: center;
+  font-size: 1.2em;
 }
