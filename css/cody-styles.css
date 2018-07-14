@@ -45,12 +45,12 @@ a {
 .jumbotron {
   margin-top: -2.4%;
   /* Image courtesy of Joey Banks on www.unsplash.com */
-  background-image: url(../img/mustang-joey-banks-min.jpg);
-  background-position: center;
+  background-image: url(../img/jonathan-gallegos-728815-unsplash.jpg);
+  background-position: 68% 32%;
   background-size: cover;
   border-bottom: 1px solid black;
   width: 100%;
-  height: 300px;
+  height: 25em;
 }
 
 .site__title {
@@ -134,23 +134,27 @@ a {
   align-items: center;
   margin: auto;
 }
-
 .donations__card {
   display: grid;
   background-color: lightcyan;
   height: 300px;
   justify-content: center;
-  align-items: center;
   border: 1px solid black;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  padding: 1%;
+  text-align: center;
 }
-
 .scholarship__card {
   display: grid;
   background-color: lightgrey;
   height: 300px;
   justify-content: center;
-  align-items: center;
   border: 1px solid black;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  padding: 1%;
+  text-align: center;
 }
 /* ****** */
 /* Footer */
