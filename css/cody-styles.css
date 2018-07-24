@@ -158,6 +158,13 @@ a {
   text-align: center;
 }
 /* ****** */
+/* About  */
+/* ****** */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* ****** */
 /* Footer */
 /* ****** */
 .footer_bar {
