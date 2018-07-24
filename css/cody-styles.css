@@ -32,12 +32,10 @@ a {
 .header__link a {
   color: lightcyan;
   font-size: 1.2em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 5px 5px black;
 }
-/* //TODO - fix zoom on hover */
-.header__link a:hover {
-  transform: scale(0.8);
-  text-decoration: underline;
+.header__link:hover {
+  transform: scale(1.2);
 }
 /* ****** */
 /* Jumbotron Image(s) */
