@@ -6,7 +6,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   /* overflow-x: hidden; */
-  background: rgba(3, 47, 98, 0.3)
+  background: rgba(0, 0, 0, 0.1)
 }
 .wrapper {
   display: grid;
@@ -32,18 +32,20 @@ a {
 .header__link a {
   color: lightcyan;
   font-size: 1.2em;
-  text-shadow: 2px 5px 5px black;
+  text-shadow: 1px 1px 1px black;
 }
-.header__link:hover {
-  transform: scale(1.2);
+/* //TODO - fix zoom on hover */
+.header__link a:hover {
+  transform: scale(0.8);
+  text-decoration: underline;
 }
 /* ****** */
 /* Jumbotron Image(s) */
 /* ****** */
 .jumbotron {
   margin-top: -2.4%;
-  /* Image courtesy of Jonathan Gallegos on www.unsplash.com */
-  background-image: url(../img/jonathan-gallegos-728815-unsplash-min.jpg);
+  /* Image courtesy of Joey Banks on www.unsplash.com */
+  background-image: url(../img/jonathan-gallegos-728815-unsplash.jpg);
   background-position: 68% 32%;
   background-size: cover;
   border-bottom: 1px solid black;
@@ -52,20 +54,20 @@ a {
 }
 
 .site__title {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   color: white;
-  text-align: end;
-  padding: 16% 5% 0 0;
+  text-align: center;
+  padding-top: 10%;
 }
 .disclaimer {
   text-align: center;
 }
 .disclaimer a {
-  color: #032F61;
+  color: lightcoral;
 }
 .disclaimer a:hover {
-  color: rgb(117, 120, 163);
+  color: rgb(28, 46, 240);
 }
 /* ****** */
 /* Content */
@@ -88,8 +90,8 @@ a {
   text-align: center;
   padding: 10px;
   border: 1px solid black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   -webkit-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
@@ -117,49 +119,42 @@ a {
   width: 100%;
   height: 200px;
   justify-content: center;
-  background-color: #032F61;
-  color: white;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  align-content: center;
+  background-color: lightgreen;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .funds {
-  width: 75%;
-  height: 30%;
+  width: 80%;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   align-items: center;
   margin: auto;
 }
 .donations__card {
   display: grid;
   background-color: lightcyan;
-  height: 20em;
+  height: 300px;
   justify-content: center;
   border: 1px solid black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   padding: 1%;
   text-align: center;
 }
 .scholarship__card {
   display: grid;
   background-color: lightgrey;
-  height: 20em;
+  height: 300px;
   justify-content: center;
   border: 1px solid black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   padding: 1%;
   text-align: center;
-}
-/* ****** */
-/* About  */
-/* ****** */
-.about {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 /* ****** */
 /* Footer */
