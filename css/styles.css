@@ -43,7 +43,7 @@ a {
 .jumbotron {
   margin-top: -2.4%;
   /* Image courtesy of Jonathan Gallegos on www.unsplash.com */
-  background-image: url(./img/jonathan-gallegos-728815-unsplash-min.jpg);
+  background-image: url(../img/jonathan-gallegos-728815-unsplash-min.jpg);
   background-position: 68% 32%;
   background-size: cover;
   border-bottom: 1px solid black;
