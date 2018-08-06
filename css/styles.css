@@ -6,7 +6,7 @@ body {
   height: 100%;
   box-sizing: border-box;
   /* overflow-x: hidden; */
-  background: rgba(0, 0, 0, 0.1)
+  background: rgba(3, 47, 98, 0.3)
 }
 .wrapper {
   display: grid;
@@ -32,42 +32,40 @@ a {
 .header__link a {
   color: lightcyan;
   font-size: 1.2em;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 5px 5px black;
 }
-/* //TODO - fix zoom on hover */
-.header__link a:hover {
-  transform: scale(0.8);
-  text-decoration: underline;
+.header__link:hover {
+  transform: scale(1.2);
 }
 /* ****** */
 /* Jumbotron Image(s) */
 /* ****** */
 .jumbotron {
   margin-top: -2.4%;
-  /* Image courtesy of Joey Banks on www.unsplash.com */
-  background-image: url(../img/mustang-joey-banks-min.jpg);
-  background-position: center;
+  /* Image courtesy of Jonathan Gallegos on www.unsplash.com */
+  background-image: url(../img/jonathan-gallegos-728815-unsplash-min.jpg);
+  background-position: 68% 32%;
   background-size: cover;
   border-bottom: 1px solid black;
   width: 100%;
-  height: 300px;
+  height: 25em;
 }
 
 .site__title {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
   color: white;
-  text-align: center;
-  padding-top: 10%;
+  text-align: end;
+  padding: 16% 5% 0 0;
 }
 .disclaimer {
   text-align: center;
 }
 .disclaimer a {
-  color: lightcoral;
+  color: #032F61;
 }
 .disclaimer a:hover {
-  color: rgb(28, 46, 240);
+  color: rgb(117, 120, 163);
 }
 /* ****** */
 /* Content */
@@ -90,8 +88,8 @@ a {
   text-align: center;
   padding: 10px;
   border: 1px solid black;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   -webkit-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.75);
@@ -119,38 +117,49 @@ a {
   width: 100%;
   height: 200px;
   justify-content: center;
-  align-content: center;
-  background-color: lightgreen;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  background-color: #032F61;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .funds {
-  width: 80%;
-  height: 400px;
+  width: 75%;
+  height: 30%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
   align-items: center;
   margin: auto;
 }
-
 .donations__card {
   display: grid;
   background-color: lightcyan;
-  height: 300px;
+  height: 20em;
   justify-content: center;
-  align-items: center;
   border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1%;
+  text-align: center;
 }
-
 .scholarship__card {
   display: grid;
   background-color: lightgrey;
-  height: 300px;
+  height: 20em;
   justify-content: center;
-  align-items: center;
   border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1%;
+  text-align: center;
+}
+/* ****** */
+/* About  */
+/* ****** */
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 /* ****** */
 /* Footer */
